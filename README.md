@@ -165,23 +165,38 @@ This project reflects practical scenarios encountered in:
 
 ### 1. Environment Setup
 **Figure 1.7 – Creating the 2 GB Data Disk**
+
 Shows the creation of the NTFS data disk used for storing the steganographic image.
+
+![Text](Screenshots/01_Disk_Setup.png)
 
 ### 2. Steganography Process
 **Figure 4.8 – Embedding Secret Text Using SilentEye**
+
 Demonstrates the process of hiding a secret message inside the JPG image.
+
+![Text](Screenshots/02_Hidden_Message.png)
 
 ### 3. Evidence Acquisition
 **Figure 4.7 – FTK Imager Evidence Configuration**
+
 Shows the forensic imaging process used to acquire a copy of the disk for analysis.
+
+![Text](Screenshots/03_FTK_Imaging.png)
 
 ### 4. Deleted File Recovery
 **Figure 5.23 – Deleted JPG Identified in Autopsy**
+
 Illustrates how Autopsy detected the deleted image file during forensic analysis.
+
+![Text](Screenshots/04_Autopsy_Recovery.png)
 
 ### 5. Hidden Message Extraction
 **Figure 6.5 – Successfully Recovered Hidden Message**
+
 Shows the final recovery of the secret message from the recovered JPG image.
+
+![Text](Screenshots/05_Message_Recovered.png)
 
 ---
 
@@ -191,7 +206,6 @@ Shows the final recovery of the secret message from the recovered JPG image.
 - Cybersecurity Investigation
 - Evidence Handling
 - Disk Imaging
-- Incident Response Fundamentals
 - File Recovery Techniques
 - Steganography Analysis
 - Forensic Tool Usage
@@ -215,6 +229,14 @@ Potential enhancements for this project include:
 ## Conclusion
 
 This project successfully demonstrates the complete lifecycle of hidden data protection and forensic recovery. By combining steganography and digital forensics, the investigation shows how concealed information can be embedded within image files, survive deletion, and later be recovered through proper forensic procedures. The project provides practical experience with industry-standard forensic tools and reinforces the importance of evidence preservation, analysis, and cybersecurity investigation techniques.
+
+---
+
+## Project Report
+
+A detailed report containing methodology, testing procedures, screenshots, findings, risk analysis, and remediation recommendations is available in the repository.
+
+📄 **Report:** `Project_Report/Digital_Forensics_and_Steganography.pdf`
 
 ---
 
